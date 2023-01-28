@@ -12,4 +12,4 @@ interface IbuyList extends IbuyListRequest{
     id:number,
 }
 
-export { Item } 
+export { Item, IbuyListRequest, IbuyList } 
