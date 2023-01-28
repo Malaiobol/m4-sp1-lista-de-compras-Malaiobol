@@ -12,4 +12,8 @@ interface IbuyList extends IbuyListRequest{
     id:number,
 }
 
-export { Item, IbuyListRequest, IbuyList } 
+type ItemRequiredKeys = "name" | "quantity";
+
+export { 
+    Item, IbuyListRequest, IbuyList, ItemRequiredKeys 
+}
